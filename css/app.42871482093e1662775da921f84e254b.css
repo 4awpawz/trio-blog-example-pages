@@ -276,6 +276,41 @@ img {
   font-weight: bold;
   color: white; }
 
+.article-tags {
+  display: block; }
+
+.article-tags__list {
+  display: flex;
+  flex: row wrap;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: .5rem;
+  background-color: #F8F9F9;
+  border-radius: 3px; }
+
+.article-tags__list-item {
+  display: initial; }
+
+.article-tags__list-item-link {
+  display: inline-block;
+  display: inline-block;
+  text-align: center;
+  width: initial;
+  margin: 3px;
+  border: solid 1px lightgray;
+  color: inherit;
+  border-radius: 20px;
+  box-shadow: 2px 2px 0 gray;
+  font-size: .57rem;
+  padding: 3px 15px; }
+
+.article-tags__list-item-link:hover {
+  background-color: lightgray;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  font-weight: bold;
+  color: white; }
+
 .related-articles {
   margin-bottom: 15px;
   padding-bottom: 15px; }
