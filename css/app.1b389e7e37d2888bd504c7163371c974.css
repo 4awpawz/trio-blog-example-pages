@@ -80,8 +80,9 @@ img {
 .category__list-item, .tag__list-item {
   color: darkgray; }
 
-.category__link, .tag__link {
-  color: inherit; }
+.category__list-item-link, .tag__list-item-link {
+  color: inherit;
+  text-decoration: underline; }
 
 .container {
   max-width: 95%;
