@@ -50,7 +50,7 @@ a {
 img {
   border-radius: 3px; }
 
-.blog__article-img, .article__img, .about__img {
+.blog__article-img, .article__img, .about__img, .archive__img {
   box-shadow: 3px 3px 3px lightgray; }
 
 .category, .tag, .archive, .articles-by-category, .articles-by-tag, .related-articles {
@@ -230,6 +230,15 @@ img {
 
 @media (min-width: 992px) {
   .about__img {
+    width: 100%;
+    height: 350px; } }
+
+.archive__img {
+  width: 100%;
+  height: 275px; }
+
+@media (min-width: 992px) {
+  .archive__img {
     width: 100%;
     height: 350px; } }
 
