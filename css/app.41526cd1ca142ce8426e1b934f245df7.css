@@ -158,6 +158,10 @@ img {
   text-align: center;
   background-color: #F8F9F9;
   color: darkgray; }
+  .footer a {
+    color: rgba(0, 0, 0, 0.6); }
+  .footer a:hover {
+    text-decoration: underline; }
 
 .blog {
   display: block; }
